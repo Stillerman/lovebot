@@ -4,5 +4,6 @@ node_modules
 creds.ts
 yarn-error.log
 Step1.json
+acc_handles.json
 *.jpg
 connections.txt

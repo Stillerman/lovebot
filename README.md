@@ -47,7 +47,20 @@ sh ExtractTexts.sh
 ```
 
 # Step 4 - Scrape UVM student data
+
+1. rename `creds.example.ts` to `creds.ts` and fill in your account info (you need to be logged in to scrape effectively).
+2. Run the following
+
+```bash
+cd Step4
+yarn install
+npx parcel build index.ts -t node
+node dist
+```
+
+1. You will be left with a `acc_handles.json` file containing scraped instagram handles in the `Step4` directory.
+   
 # Step 5 - Generate connections
-# Step 5 - Post connections
+# Step 6 - Post connections
 
 
