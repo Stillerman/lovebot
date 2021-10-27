@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import math
+import random
 
 def createImage(text):
   dims = (1000, 1000)
@@ -12,9 +13,9 @@ def createImage(text):
 
   img = np.dstack((B,G,R))
 
-  img[:,:,0] = 0.5
-  img[:,:,1] = 0.5
-  img[:,:,2] = 1
+  img[:,:,0] = random.uniform(0, 1)
+  img[:,:,1] = random.uniform(0, 1)
+  img[:,:,2] = random.uniform(0, 1)
 
 
   font_scale = 1.5

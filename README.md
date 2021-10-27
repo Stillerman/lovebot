@@ -60,7 +60,10 @@ node dist
 
 1. You will be left with a `acc_handles.json` file containing scraped instagram handles in the `Step4` directory.
    
-# Step 5 - Generate connections
+# Step 5 - OpenAI's GPT 3 - Generate connections
+
+OpenAI does not allow for their models to be used on social media unfortunately, so we will need to recreate this using a different technique. 
+
 # Step 6 - Post connections
 
 
