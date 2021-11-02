@@ -7,4 +7,6 @@ Step1.json
 acc_handles.json
 *.jpg
 connections.txt
+cleaned-connections.txt
+.parcel-cache
 __pycache__
