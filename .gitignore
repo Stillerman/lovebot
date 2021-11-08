@@ -10,3 +10,8 @@ connections.txt
 cleaned-connections.txt
 .parcel-cache
 __pycache__
+.empty
+checkpoint
+models
+samples
+tada.png
