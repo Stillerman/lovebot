@@ -64,6 +64,22 @@ node dist
 
 OpenAI does not allow for their models to be used on social media unfortunately, so we will need to recreate this using a different technique. 
 
+
+# Step 5 - Fine-tuning GPT-2 - Generate connections
+
+Upload `FineTuneLoveBot.ipynb` to Google Colab and follow the steps in there. When it has finished running, copy `models` and `checkpoint` folders from Google Drive into `Step5-EasyGPT` folder. Install `OpenCV`, `gpt_2_simple`, and `starlette` with a python package manager of your choice.
+
+Run `python server.py` and wait until it starts listening. You will now me able to generate connections by sending GET requests to `http://localhost:8080/?prefix=NAME_GOES_HERE`. Note: these will take ~30 seconds to generate.
+
 # Step 6 - Post connections
 
+With Step 5's server still running and Step 4's `acc-handles.json` generated, and `creds.example.ts` configured like we had done above, run
+
+```
+yarn
+yarn build
+node dist
+```
+
+and watch LoveBot get to work.
 
